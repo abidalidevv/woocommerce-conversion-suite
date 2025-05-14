@@ -418,3 +418,10 @@
   transition: opacity .2s;
 }
 .btn:hover { opacity: .85; }
+
+.card {
+  background: var(--color-bg);
+  border-radius: var(--radius, 6px);
+  box-shadow: 0 1px 3px rgba(0,0,0,.12);
+  padding: 1.5rem;
+}
