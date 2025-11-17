@@ -351,3 +351,15 @@
     --color-text: #e2e8f0;
   }
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: var(--radius, 6px);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+.btn:hover { opacity: .85; }
