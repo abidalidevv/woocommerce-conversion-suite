@@ -610,3 +610,10 @@
   transition: opacity .2s;
 }
 .btn:hover { opacity: .85; }
+
+:root {
+  --color-primary: #3b82f6;
+  --color-bg: #ffffff;
+  --color-text: #1e293b;
+  --radius: 0.5rem;
+}
