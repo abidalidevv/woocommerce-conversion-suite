@@ -670,3 +670,10 @@
   transition: opacity .2s;
 }
 .btn:hover { opacity: .85; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-text: #e2e8f0;
+  }
+}
