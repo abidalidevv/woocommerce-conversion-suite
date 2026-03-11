@@ -651,3 +651,10 @@
   box-shadow: 0 1px 3px rgba(0,0,0,.12);
   padding: 1.5rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-text: #e2e8f0;
+  }
+}
